@@ -23,4 +23,4 @@ class UserEndpoint:
             print("new user =",end=""), print(new_user)
             new_user = user_service.create_user(new_user)
 
-            return jsonify({'message': 'SUCCESS'}, 200)
+            return jsonify({'message': 'SUCCESS'})
